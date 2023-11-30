@@ -7,16 +7,18 @@
     <title>Priority Pilot</title>
 </head>
 <body>
-    <h1>Priority Pilot</h1>
-    <form id="taskForm">
-        <label for="taskInput">Нове завдання:</label>
-        <input type="text" id="taskInput" required>
-        <button type="submit">Додати</button>
-        <button onclick="deleteCompletedTasks()">Видалити виконані завдання</button>
-        <button onclick="deleteAllTasks()">Видалити всі завдання</button>
-    </form>
-    <ul id="taskList">
-    </ul>
-    <script src="main.js"></script>
+        <div class="container"> 
+            <h1>Priority Pilot</h1>
+            <form id="taskForm">
+                <label for="taskInput">Нове завдання:</label>
+                <input type="text" id="taskInput" class="taskInput" required>
+                <button type="submit">Додати</button>
+                <button onclick="deleteCompletedTasks()">Видалити виконані завдання</button>
+                <button onclick="deleteAllTasks()">Видалити всі завдання</button>
+            </form>
+            <ul id="taskList">
+            </ul>
+        </div>
+        <script src="main.js"></script>
 </body>
 </html>

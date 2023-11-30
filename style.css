@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+.wrapper {
+    max-width: 720px;
+
+}
+
 .container {
     max-width: 600px;
     margin: 20px auto;
@@ -13,24 +18,36 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+
 h1 {
     text-align: center;
     color: #333;
 }
 
 #taskForm {
-    margin-bottom: 20px;
+    margin: 10px;
 }
 
-#taskInput {
-    width: 70%;
+.taskInput {
+    width: 90%;
     padding: 8px;
     font-size: 16px;
 }
 
-#taskList {
+.taskList {
     list-style: none;
     padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 40px;
+    padding-inline-start: 40px;
 }
 
 li {
